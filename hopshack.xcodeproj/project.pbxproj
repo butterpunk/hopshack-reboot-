@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584590F31C60743100B66555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584590F21C60743100B66555 /* AppDelegate.swift */; };
+		584590F51C60743100B66555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584590F41C60743100B66555 /* ViewController.swift */; };
+		584590F81C60743100B66555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584590F61C60743100B66555 /* Main.storyboard */; };
+		584590FA1C60743100B66555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584590F91C60743100B66555 /* Assets.xcassets */; };
+		584590FD1C60743100B66555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584590FB1C60743100B66555 /* LaunchScreen.storyboard */; };
+		584591081C60743100B66555 /* hopshackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584591071C60743100B66555 /* hopshackTests.swift */; };
+		584591131C60743100B66555 /* hopshackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584591121C60743100B66555 /* hopshackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584591041C60743100B66555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584590E71C60742F00B66555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584590EE1C60743000B66555;
+			remoteInfo = hopshack;
+		};
+		5845910F1C60743100B66555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584590E71C60742F00B66555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584590EE1C60743000B66555;
+			remoteInfo = hopshack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584590EF1C60743100B66555 /* hopshack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hopshack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584590F21C60743100B66555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		584590F41C60743100B66555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		584590F71C60743100B66555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584590F91C60743100B66555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584590FC1C60743100B66555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584590FE1C60743100B66555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584591031C60743100B66555 /* hopshackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hopshackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584591071C60743100B66555 /* hopshackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hopshackTests.swift; sourceTree = "<group>"; };
+		584591091C60743100B66555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5845910E1C60743100B66555 /* hopshackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hopshackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584591121C60743100B66555 /* hopshackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hopshackUITests.swift; sourceTree = "<group>"; };
+		584591141C60743100B66555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584590EC1C60743000B66555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584591001C60743100B66555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5845910B1C60743100B66555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584590E61C60742F00B66555 = {
+			isa = PBXGroup;
+			children = (
+				584590F11C60743100B66555 /* hopshack */,
+				584591061C60743100B66555 /* hopshackTests */,
+				584591111C60743100B66555 /* hopshackUITests */,
+				584590F01C60743100B66555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584590F01C60743100B66555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584590EF1C60743100B66555 /* hopshack.app */,
+				584591031C60743100B66555 /* hopshackTests.xctest */,
+				5845910E1C60743100B66555 /* hopshackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584590F11C60743100B66555 /* hopshack */ = {
+			isa = PBXGroup;
+			children = (
+				584590F21C60743100B66555 /* AppDelegate.swift */,
+				584590F41C60743100B66555 /* ViewController.swift */,
+				584590F61C60743100B66555 /* Main.storyboard */,
+				584590F91C60743100B66555 /* Assets.xcassets */,
+				584590FB1C60743100B66555 /* LaunchScreen.storyboard */,
+				584590FE1C60743100B66555 /* Info.plist */,
+			);
+			path = hopshack;
+			sourceTree = "<group>";
+		};
+		584591061C60743100B66555 /* hopshackTests */ = {
+			isa = PBXGroup;
+			children = (
+				584591071C60743100B66555 /* hopshackTests.swift */,
+				584591091C60743100B66555 /* Info.plist */,
+			);
+			path = hopshackTests;
+			sourceTree = "<group>";
+		};
+		584591111C60743100B66555 /* hopshackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				584591121C60743100B66555 /* hopshackUITests.swift */,
+				584591141C60743100B66555 /* Info.plist */,
+			);
+			path = hopshackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584590EE1C60743000B66555 /* hopshack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584591171C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshack" */;
+			buildPhases = (
+				584590EB1C60743000B66555 /* Sources */,
+				584590EC1C60743000B66555 /* Frameworks */,
+				584590ED1C60743000B66555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hopshack;
+			productName = hopshack;
+			productReference = 584590EF1C60743100B66555 /* hopshack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584591021C60743100B66555 /* hopshackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5845911A1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackTests" */;
+			buildPhases = (
+				584590FF1C60743100B66555 /* Sources */,
+				584591001C60743100B66555 /* Frameworks */,
+				584591011C60743100B66555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584591051C60743100B66555 /* PBXTargetDependency */,
+			);
+			name = hopshackTests;
+			productName = hopshackTests;
+			productReference = 584591031C60743100B66555 /* hopshackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5845910D1C60743100B66555 /* hopshackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5845911D1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackUITests" */;
+			buildPhases = (
+				5845910A1C60743100B66555 /* Sources */,
+				5845910B1C60743100B66555 /* Frameworks */,
+				5845910C1C60743100B66555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584591101C60743100B66555 /* PBXTargetDependency */,
+			);
+			name = hopshackUITests;
+			productName = hopshackUITests;
+			productReference = 5845910E1C60743100B66555 /* hopshackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584590E71C60742F00B66555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Blake Butterworth";
+				TargetAttributes = {
+					584590EE1C60743000B66555 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					584591021C60743100B66555 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 584590EE1C60743000B66555;
+					};
+					5845910D1C60743100B66555 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 584590EE1C60743000B66555;
+					};
+				};
+			};
+			buildConfigurationList = 584590EA1C60743000B66555 /* Build configuration list for PBXProject "hopshack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584590E61C60742F00B66555;
+			productRefGroup = 584590F01C60743100B66555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584590EE1C60743000B66555 /* hopshack */,
+				584591021C60743100B66555 /* hopshackTests */,
+				5845910D1C60743100B66555 /* hopshackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584590ED1C60743000B66555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584590FD1C60743100B66555 /* LaunchScreen.storyboard in Resources */,
+				584590FA1C60743100B66555 /* Assets.xcassets in Resources */,
+				584590F81C60743100B66555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584591011C60743100B66555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5845910C1C60743100B66555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584590EB1C60743000B66555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584590F51C60743100B66555 /* ViewController.swift in Sources */,
+				584590F31C60743100B66555 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584590FF1C60743100B66555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584591081C60743100B66555 /* hopshackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5845910A1C60743100B66555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584591131C60743100B66555 /* hopshackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584591051C60743100B66555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584590EE1C60743000B66555 /* hopshack */;
+			targetProxy = 584591041C60743100B66555 /* PBXContainerItemProxy */;
+		};
+		584591101C60743100B66555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584590EE1C60743000B66555 /* hopshack */;
+			targetProxy = 5845910F1C60743100B66555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584590F61C60743100B66555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584590F71C60743100B66555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584590FB1C60743100B66555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584590FC1C60743100B66555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584591151C60743100B66555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		584591161C60743100B66555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584591181C60743100B66555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hopshack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584591191C60743100B66555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hopshack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5845911B1C60743100B66555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hopshackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hopshack.app/hopshack";
+			};
+			name = Debug;
+		};
+		5845911C1C60743100B66555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hopshackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hopshack.app/hopshack";
+			};
+			name = Release;
+		};
+		5845911E1C60743100B66555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hopshackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hopshack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5845911F1C60743100B66555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hopshackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Student.hopshackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hopshack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584590EA1C60743000B66555 /* Build configuration list for PBXProject "hopshack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584591151C60743100B66555 /* Debug */,
+				584591161C60743100B66555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584591171C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584591181C60743100B66555 /* Debug */,
+				584591191C60743100B66555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5845911A1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5845911B1C60743100B66555 /* Debug */,
+				5845911C1C60743100B66555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5845911D1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5845911E1C60743100B66555 /* Debug */,
+				5845911F1C60743100B66555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584590E71C60742F00B66555 /* Project object */;
+}
