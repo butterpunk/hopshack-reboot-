@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		584590F31C60743100B66555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584590F21C60743100B66555 /* AppDelegate.swift */; };
-		584590F51C60743100B66555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584590F41C60743100B66555 /* ViewController.swift */; };
 		584590F81C60743100B66555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584590F61C60743100B66555 /* Main.storyboard */; };
 		584590FA1C60743100B66555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584590F91C60743100B66555 /* Assets.xcassets */; };
 		584590FD1C60743100B66555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584590FB1C60743100B66555 /* LaunchScreen.storyboard */; };
 		584591081C60743100B66555 /* hopshackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584591071C60743100B66555 /* hopshackTests.swift */; };
 		584591131C60743100B66555 /* hopshackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584591121C60743100B66555 /* hopshackUITests.swift */; };
+		584591211C60762E00B66555 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584591201C60762E00B66555 /* APIClient.swift */; settings = {ASSET_TAGS = (); }; };
+		5882BD411C61A9D10063806D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882BD401C61A9D10063806D /* ProductViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		743CE294E551E5D898FC73F4 /* Pods_hopshack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BC71462FDEDA9F424273D8 /* Pods_hopshack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		584590EF1C60743100B66555 /* hopshack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hopshack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584590F21C60743100B66555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		584590F41C60743100B66555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		584590F71C60743100B66555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		584590F91C60743100B66555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584590FC1C60743100B66555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		5845910E1C60743100B66555 /* hopshackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hopshackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584591121C60743100B66555 /* hopshackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hopshackUITests.swift; sourceTree = "<group>"; };
 		584591141C60743100B66555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584591201C60762E00B66555 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5882BD401C61A9D10063806D /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		70BC71462FDEDA9F424273D8 /* Pods_hopshack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hopshack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BA98F2EF7EE9BD717BDEA6 /* Pods-hopshack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hopshack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hopshack/Pods-hopshack.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A5100964EA1A10AB591929 /* Pods-hopshack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hopshack.release.xcconfig"; path = "Pods/Target Support Files/Pods-hopshack/Pods-hopshack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743CE294E551E5D898FC73F4 /* Pods_hopshack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217BCC2C6BA3123593E05CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70BC71462FDEDA9F424273D8 /* Pods_hopshack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		584590E61C60742F00B66555 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				584591061C60743100B66555 /* hopshackTests */,
 				584591111C60743100B66555 /* hopshackUITests */,
 				584590F01C60743100B66555 /* Products */,
+				A37D8AB1A6DC45F71525BB7B /* Pods */,
+				217BCC2C6BA3123593E05CAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				584590F21C60743100B66555 /* AppDelegate.swift */,
-				584590F41C60743100B66555 /* ViewController.swift */,
+				584591201C60762E00B66555 /* APIClient.swift */,
 				584590F61C60743100B66555 /* Main.storyboard */,
 				584590F91C60743100B66555 /* Assets.xcassets */,
 				584590FB1C60743100B66555 /* LaunchScreen.storyboard */,
 				584590FE1C60743100B66555 /* Info.plist */,
+				5882BD401C61A9D10063806D /* ProductViewController.swift */,
 			);
 			path = hopshack;
 			sourceTree = "<group>";
@@ -125,6 +143,15 @@
 			path = hopshackUITests;
 			sourceTree = "<group>";
 		};
+		A37D8AB1A6DC45F71525BB7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA98F2EF7EE9BD717BDEA6 /* Pods-hopshack.debug.xcconfig */,
+				B2A5100964EA1A10AB591929 /* Pods-hopshack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 584591171C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshack" */;
 			buildPhases = (
+				78211FAFB8D242145B23EFB5 /* Check Pods Manifest.lock */,
 				584590EB1C60743000B66555 /* Sources */,
 				584590EC1C60743000B66555 /* Frameworks */,
 				584590ED1C60743000B66555 /* Resources */,
+				28F586C8698E96FADB835F6E /* Embed Pods Frameworks */,
+				C6D7347E05313DCC3131A797 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +280,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28F586C8698E96FADB835F6E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hopshack/Pods-hopshack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78211FAFB8D242145B23EFB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D7347E05313DCC3131A797 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hopshack/Pods-hopshack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		584590EB1C60743000B66555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584590F51C60743100B66555 /* ViewController.swift in Sources */,
+				5882BD411C61A9D10063806D /* ProductViewController.swift in Sources */,
 				584590F31C60743100B66555 /* AppDelegate.swift in Sources */,
+				584591211C60762E00B66555 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +473,7 @@
 		};
 		584591181C60743100B66555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BA98F2EF7EE9BD717BDEA6 /* Pods-hopshack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hopshack/Info.plist;
@@ -405,6 +485,7 @@
 		};
 		584591191C60743100B66555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A5100964EA1A10AB591929 /* Pods-hopshack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hopshack/Info.plist;
@@ -481,6 +562,7 @@
 				584591191C60743100B66555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5845911A1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +571,7 @@
 				5845911C1C60743100B66555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5845911D1C60743100B66555 /* Build configuration list for PBXNativeTarget "hopshackUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +580,7 @@
 				5845911F1C60743100B66555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
