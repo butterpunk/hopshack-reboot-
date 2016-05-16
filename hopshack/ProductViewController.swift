@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ProductViewController: UIViewController {
 
@@ -22,5 +23,10 @@ class ProductViewController: UIViewController {
    
     @IBAction func addBeerPressed(sender: AnyObject) {
         print("Ouch!")
+        Alamofire.request(.GET, "http://hopshack.com/db_iphone_get_all_beer.php")
+            .validate()
+            .responseJSON { response in
+                debugPrint(response)
+        }
     }
 }
